@@ -1,4 +1,4 @@
-#For Test Cases Printing Minimum and Maximum Digit In A Number Using Ehile Loop
+#For Test Cases Printing Minimum and Maximum Digit In A Number Using While Loop
 t=int(input())
 while(t):
   n=int(input())
