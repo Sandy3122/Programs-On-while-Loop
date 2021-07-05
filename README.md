@@ -1,1 +1,1 @@
-# Programs-on-while-looo
+# Programs-on-while-loop
