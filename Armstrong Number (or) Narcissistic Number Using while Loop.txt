@@ -1,0 +1,19 @@
+#Armstrong Number (or) Narcissistic Number
+#Note: Every digit is an Armstrong Number itself
+n=int(input())
+t=n
+u=n
+dc=0
+while(n):
+  dc+=1
+  n=n//10
+#Exponenting every figit using dc
+A=0
+while(t):
+  r=t%10
+  A +=r**dc
+  t=t//10
+if(A==u):
+  print('It Is An Armstrong Number')
+else:
+  print('It Is Not An Armstrong Number') 
