@@ -1,0 +1,28 @@
+#revering the numbers and getting even and odd then square of these even and odd using while loop
+n=int(input())
+e=0
+o=0
+while(n):
+  r=n%10
+  if(r%2==0):
+    e=e*10+r
+  else:
+    o=o*10+r
+  n=n//10
+erev=0 
+orev=0 
+#Reversing the even number
+while(e):
+  r=e%10
+  erev=erev*10+r
+  e=e//10
+print (erev)
+print(erev**2)
+
+#Reversing the odd number
+while(o):
+  r=o%10
+  orev=orev*10+r
+  o=o//10
+print(orev)
+print(orev**2)
